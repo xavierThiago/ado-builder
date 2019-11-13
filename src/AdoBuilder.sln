@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26124.0
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoBuilder", "Core\AdoBuilder.csproj", "{8B457A92-6D2A-4875-90DA-1886AA1B692B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendors", "Vendors", "{3727B5DF-7821-4D4D-82A5-3D89D5807F60}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoBuilder.Oracle", "Vendors\Oracle\AdoBuilder.Oracle.csproj", "{8924C9E8-2093-4586-BAC4-072857A405C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoBuilder.Postgresql", "Vendors\Postgresql\AdoBuilder.Postgresql.csproj", "{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}"
+EndProject
+Global
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Debug|x64.Build.0 = Debug|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Debug|x86.Build.0 = Debug|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Release|x64.ActiveCfg = Release|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Release|x64.Build.0 = Release|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Release|x86.ActiveCfg = Release|Any CPU
+		{8B457A92-6D2A-4875-90DA-1886AA1B692B}.Release|x86.Build.0 = Release|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Debug|x64.Build.0 = Debug|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Debug|x86.Build.0 = Debug|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Release|x64.ActiveCfg = Release|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Release|x64.Build.0 = Release|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Release|x86.ActiveCfg = Release|Any CPU
+		{8924C9E8-2093-4586-BAC4-072857A405C7}.Release|x86.Build.0 = Release|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Debug|x64.Build.0 = Debug|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Debug|x86.Build.0 = Debug|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Release|x64.ActiveCfg = Release|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Release|x64.Build.0 = Release|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Release|x86.ActiveCfg = Release|Any CPU
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8924C9E8-2093-4586-BAC4-072857A405C7} = {3727B5DF-7821-4D4D-82A5-3D89D5807F60}
+		{62A8CADC-EF1C-4450-82A8-0CE5BDA11932} = {3727B5DF-7821-4D4D-82A5-3D89D5807F60}
+	EndGlobalSection
+EndGlobal
