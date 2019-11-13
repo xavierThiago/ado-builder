@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
     <metadata>
         <!-- The identifier that must be unique within the hosting gallery -->
-        <id>MupyCo.Data.AdoBuilder.Oracle</id>
+        <id>MupyCo.Data.AdoBuilder</id>
 
         <!-- The package version number that is used when resolving dependencies -->
         <version>1.0.0-rc</version>
@@ -38,18 +38,18 @@
             The description can be used in package manager UI. Note that the
             nuget.org gallery uses information you add in the portal.
         -->
-        <description>Oracle dabatase adpater for ADO Builder.</description>
+        <description>Fast database access with a builder fashion syntax.</description>
 
         <!-- Copyrightinformation -->
         <copyright>Copyright ©2019 Thiago J. Xavier</copyright>
 
         <!-- Tags appear in the gallery and can be used for tag searches -->
-        <tags>builder ado database oracle sql</tags>
+        <tags>builder ado database oracle postgres sql</tags>
     </metadata>
 
     <!-- A readme.txt to display when the package is installed -->
     <files>
         <file src="./README.md" target="" />
-        <file src="../../../LICENSE.md" target="" />
+        <file src="../../LICENSE.md" target="" />
     </files>
 </package>

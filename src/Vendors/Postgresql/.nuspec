@@ -1,0 +1,55 @@
+<?xml version="1.0" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2013/05/nuspec.xsd">
+    <metadata>
+        <!-- The identifier that must be unique within the hosting gallery -->
+        <id>MupyCo.Data.AdoBuilder.Postgres</id>
+
+        <!-- The package version number that is used when resolving dependencies -->
+        <version>1.0.0-rc</version>
+
+        <!-- Authors contain text that appears directly on the gallery -->
+        <authors>Thiago Xavier</authors>
+
+        <!--
+            Owners are typically nuget.org identities that allow gallery
+            users to easily find other packages by the same owners.
+        -->
+        <owners>Thiago Xavier</owners>
+
+        <!-- Project URL provides a link for the gallery -->
+        <projectUrl>https://gitlab.com/xavierthiago/ado-builder</projectUrl>
+
+        <!-- The icon is used in Visual Studio's package manager UI -->
+        <iconUrl>https://site.vidalink.com.br/site/favicon-16x16.png</iconUrl>
+
+        <!-- License information is displayed on the gallery -->
+        <license type="file">LICENSE.md</license>
+
+        <!--
+            If true, this value prompts the user to accept the license when
+            installing the package.
+        -->
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+
+        <!-- Any details about this particular release -->
+        <releaseNotes></releaseNotes>
+
+        <!--
+            The description can be used in package manager UI. Note that the
+            nuget.org gallery uses information you add in the portal.
+        -->
+        <description>Postgres dabatase adpater for ADO Builder.</description>
+
+        <!-- Copyrightinformation -->
+        <copyright>Copyright ©2019 Thiago J. Xavier</copyright>
+
+        <!-- Tags appear in the gallery and can be used for tag searches -->
+        <tags>builder ado database postgres sql</tags>
+    </metadata>
+
+    <!-- A readme.txt to display when the package is installed -->
+    <files>
+        <file src="./README.md" target="" />
+        <file src="../../../LICENSE.md" target="" />
+    </files>
+</package>
