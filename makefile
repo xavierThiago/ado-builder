@@ -10,7 +10,7 @@ rebuild:
 	@dotnet build -p:maxcpucount=5 -v q > /dev/null
 	@echo Done.
 
-# Minimum line code coverage threshold of 50% (changeable from parameter).
+# Minimum line code coverage threshold of 0% (changeable from parameter).
 threshold ?= 0
 cbt: rebuild
 	@printf "\nTesting...\n\n"
