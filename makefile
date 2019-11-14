@@ -11,18 +11,18 @@ rebuild:
 	@echo Done.
 
 # Minimum line code coverage threshold of 50% (changeable from parameter).
-threshold ?= 50
+threshold ?= 0
 cbt: rebuild
 	@printf "\nTesting...\n\n"
 	@dotnet test -v q --no-build /p:CollectCoverage=true /p:Threshold=${threshold} /p:ThresholdType=line /p:CoverletOutputFormat=opencover
 	@echo Done.
 
-pack: rebuild
+pack: cbt
 	@printf "\nDeleting previous .nupkg...\n"
 	@rm -drf ./publish/nupkg
 	@echo Done.
 	@printf "\nPacking...\n\n"
-	@dotnet pack -c Release -o publish/nupkg -v q
+	@dotnet pack -c Release --no-build -o publish/nupkg -v q
 	@echo Done.
 
 id ?= ado-builder

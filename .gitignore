@@ -1,5 +1,13 @@
-# Created by https://www.gitignore.io/api/git,linux,windows,visualstudio,visualstudiocode
-# Edit at https://www.gitignore.io/?templates=git,linux,windows,visualstudio,visualstudiocode
+### Custom ###
+
+# Code coverage files
+src/tests/**/[Cc]overage*.*
+
+# Developer's machine configurations
+.configs.yml
+
+# Created by https://www.gitignore.io/api/git,linux,windows,sonarqube,visualstudio,visualstudiocode
+# Edit at https://www.gitignore.io/?templates=git,linux,windows,sonarqube,visualstudio,visualstudiocode
 
 ### Git ###
 # Created by git for backups. To disable backups in Git:
@@ -30,6 +38,19 @@
 
 # .nfs files are created when an open file is removed but is still being accessed
 .nfs*
+
+### SonarQube ###
+# SonarQube ignore files.
+#
+# https://docs.sonarqube.org/display/SCAN/Analyzing+with+SonarQube+Scanner
+# Sonar Scanner working directories
+.sonar/
+.sonarqube/
+.scannerwork/
+
+# http://www.sonarlint.org/commandline/
+# SonarLint working directories, configuration files (including credentials)
+.sonarlint/
 
 ### VisualStudioCode ###
 .vscode/*
@@ -418,4 +439,4 @@ healthchecksdb
 # Backup folder for Package Reference Convert tool in Visual Studio 2017
 MigrationBackup/
 
-# End of https://www.gitignore.io/api/git,linux,windows,visualstudio,visualstudiocode
+# End of https://www.gitignore.io/api/git,linux,windows,sonarqube,visualstudio,visualstudiocode

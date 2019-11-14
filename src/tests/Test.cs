@@ -54,7 +54,7 @@ namespace Vidalink.Core.Data
             }
         }
 
-        public class TestEntity : IDataEntity
+        public class TestEntity
         {
             public string Name { get; set; }
             public byte Age { get; set; }
