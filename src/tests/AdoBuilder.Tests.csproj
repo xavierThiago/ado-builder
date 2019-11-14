@@ -17,7 +17,7 @@
     <PackageReference Include="xunit.runner.visualstudio" Version="2.*" />
     <PackageReference Include="coverlet.collector" Version="1.*" />
 
-    <ProjectReference Include="..\Core\AdoBuilder.csproj" />
+    <ProjectReference Include="..\Core\AdoBuilder.Core.csproj" />
     <ProjectReference Include="..\Vendors\Oracle\AdoBuilder.Oracle.csproj" />
     <ProjectReference Include="..\Vendors\Postgresql\AdoBuilder.Postgresql.csproj" />
   </ItemGroup>

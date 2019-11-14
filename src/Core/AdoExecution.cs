@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Vidalink.Core.Data
+namespace AdoBuilder.Core
 {
     public abstract class AdoExecution<TCommand> : IAdoExecution
         where TCommand : DbCommand, new()
@@ -12,7 +12,7 @@ namespace Vidalink.Core.Data
         protected const int NonQuerySuccessfulReturnNumber = 1;
 
         private bool _hasBeenDisposed = false;
-        protected AdoBuilder builder;
+        protected AdoBuilderBase builder;
 
         public bool IsConnected
         {
@@ -22,7 +22,7 @@ namespace Vidalink.Core.Data
             }
         }
 
-        public AdoExecution(AdoBuilder builder)
+        public AdoExecution(AdoBuilderBase builder)
         {
             if (builder == null)
                 throw new ArgumentNullException(nameof(builder));

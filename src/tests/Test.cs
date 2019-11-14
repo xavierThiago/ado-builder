@@ -1,9 +1,9 @@
 using System.Data;
 using System.Threading.Tasks;
+using AdoBuilder.Oracle;
 using Oracle.ManagedDataAccess.Client;
-using Vidalink.Core.Data.Oracle;
 
-namespace Vidalink.Core.Data
+namespace AdoBuilder.Tests
 {
     public class Test
     {

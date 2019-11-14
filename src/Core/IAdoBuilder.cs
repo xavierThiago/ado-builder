@@ -4,7 +4,7 @@ using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Vidalink.Core.Data
+namespace AdoBuilder.Core
 {
     public interface IAdoBuilder : IDisposable
     {

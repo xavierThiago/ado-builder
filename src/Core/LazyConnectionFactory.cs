@@ -1,7 +1,7 @@
 using System;
 using System.Data.Common;
 
-namespace Vidalink.Core.Data
+namespace AdoBuilder.Core
 {
     public class LazyConnectionFactory<TConnectionProvider> where TConnectionProvider : DbConnection, new()
     {

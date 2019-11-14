@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.*" />
-    <ProjectReference Include="..\..\Core\AdoBuilder.csproj" />
+    <ProjectReference Include="..\..\Core\AdoBuilder.Core.csproj" />
   </ItemGroup>
 
 </Project>

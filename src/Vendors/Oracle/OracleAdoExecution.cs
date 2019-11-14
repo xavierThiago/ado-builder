@@ -2,15 +2,16 @@ using System;
 using System.Collections.Generic;
 using System.Data.Common;
 using System.Threading.Tasks;
+using AdoBuilder.Core;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Vidalink.Core.Data.Oracle
+namespace AdoBuilder.Oracle
 {
     public partial class OracleAdoBuilder
     {
         protected class OracleAdoExecution : AdoExecution<OracleCommand>
         {
-            public OracleAdoExecution(AdoBuilder builder) : base(builder)
+            public OracleAdoExecution(AdoBuilderBase builder) : base(builder)
             { }
 
             /// <summary>

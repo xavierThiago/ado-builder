@@ -4,9 +4,9 @@ using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Vidalink.Core.Data
+namespace AdoBuilder.Core
 {
-    public abstract class AdoBuilder : IAdoBuilder
+    public abstract class AdoBuilderBase : IAdoBuilder
     {
         public const string ConnectionStringEnvironmentKey = "DB_CONNECTION";
         // In seconds

@@ -1,3 +1,4 @@
+using AdoBuilder.Core;
 using Npgsql;
 using System;
 using System.Collections.Generic;
@@ -5,13 +6,13 @@ using System.Data;
 using System.Data.Common;
 using System.Threading.Tasks;
 
-namespace Vidalink.Core.Data.Postgre
+namespace AdoBuilder.Postgre
 {
     public partial class PostgreAdoBuilder
     {
         protected class PostgreAdoExecution : AdoExecution<NpgsqlCommand>
         {
-            public PostgreAdoExecution(AdoBuilder builder) : base(builder)
+            public PostgreAdoExecution(AdoBuilderBase builder) : base(builder)
             { }
 
             private Task<NpgsqlCommand> CreateCommandAsync(string commandText)

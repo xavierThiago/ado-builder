@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{A2B37661-99DD-483E-AB70-F44BE17B732D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoBuilder", "src\Core\AdoBuilder.csproj", "{488336EE-ECE5-4FD2-B7F2-AA62FBBD0051}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoBuilder", "src\Core\AdoBuilder.Core.csproj", "{488336EE-ECE5-4FD2-B7F2-AA62FBBD0051}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Vendors", "Vendors", "{258B2D1D-A7B5-4316-BB8E-678D1FE24AAA}"
 EndProject

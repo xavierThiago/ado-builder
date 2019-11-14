@@ -8,7 +8,7 @@
 
   <ItemGroup>
     <PackageReference Include="Npgsql" Version="4.*" />
-    <ProjectReference Include="..\..\Core\AdoBuilder.csproj" />
+    <ProjectReference Include="..\..\Core\AdoBuilder.Core.csproj" />
   </ItemGroup>
 
 </Project>

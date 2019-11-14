@@ -1,11 +1,12 @@
 using System;
 using System.Data;
 using System.Threading.Tasks;
+using AdoBuilder.Core;
 using Oracle.ManagedDataAccess.Client;
 
-namespace Vidalink.Core.Data.Oracle
+namespace AdoBuilder.Oracle
 {
-    public partial class OracleAdoBuilder : AdoBuilder
+    public partial class OracleAdoBuilder : AdoBuilderBase
     {
         public new const string ConnectionStringEnvironmentKey = "CORE__ORACLE_CONNECTION_STRING";
 
@@ -35,7 +36,7 @@ namespace Vidalink.Core.Data.Oracle
                 // Get connection string from .env.
                 base.ConnectionString = connectionString;
                 base.CommandType = CommandType.Text;
-                base.Timeout = AdoBuilder.QueryTimeout;
+                base.Timeout = AdoBuilderBase.QueryTimeout;
 
                 if (base.hasPooling)
                 {

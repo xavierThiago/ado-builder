@@ -1,11 +1,12 @@
+using AdoBuilder.Core;
 using Npgsql;
 using System;
 using System.Data;
 using System.Threading.Tasks;
 
-namespace Vidalink.Core.Data.Postgre
+namespace AdoBuilder.Postgre
 {
-    public partial class PostgreAdoBuilder : AdoBuilder
+    public partial class PostgreAdoBuilder : AdoBuilderBase
     {
         public new const string ConnectionStringEnvironmentKey = "CORE__POSTGRE_CONNECTION_STRING";
 
@@ -33,7 +34,7 @@ namespace Vidalink.Core.Data.Postgre
                 base.hasPooling = pooling;
                 base.ConnectionString = connectionString;
                 base.CommandType = CommandType.Text;
-                base.Timeout = AdoBuilder.QueryTimeout;
+                base.Timeout = AdoBuilderBase.QueryTimeout;
 
                 if (base.hasPooling)
                 {
